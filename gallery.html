@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — AL Furqan Glass</title>
+<meta name="description" content="Photo gallery of glass, mirror, shower screen, partition, door, and aluminium installations by AL Furqan Glass in Jeddah.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="sticky top-0 z-50 bg-[hsl(var(--background))]/95 backdrop-blur border-b border-[hsl(var(--border))]">
+  <div class="container flex items-center justify-between h-20">
+    <a href="index.html" class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-lg glass-ph flex items-center justify-center">
+        <i data-lucide="gem" class="w-5 h-5 text-white"></i>
+      </div>
+      <div>
+        <div class="font-extrabold text-[hsl(var(--primary))] leading-tight">AL Furqan Glass</div>
+        <div class="text-[11px] tracking-widest text-[hsl(var(--muted-foreground))] uppercase">Jeddah, KSA</div>
+      </div>
+    </a>
+    <nav class="desktop-nav flex items-center gap-8">
+      <a href="index.html" class=" hover:text-[hsl(var(--accent))] transition-colors font-medium text-sm">Home</a>
+<a href="about.html" class=" hover:text-[hsl(var(--accent))] transition-colors font-medium text-sm">About</a>
+<a href="services.html" class=" hover:text-[hsl(var(--accent))] transition-colors font-medium text-sm">Services</a>
+<a href="projects.html" class=" hover:text-[hsl(var(--accent))] transition-colors font-medium text-sm">Projects</a>
+<a href="gallery.html" class="active hover:text-[hsl(var(--accent))] transition-colors font-medium text-sm">Gallery</a>
+<a href="contact.html" class=" hover:text-[hsl(var(--accent))] transition-colors font-medium text-sm">Contact</a>
+
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="contact.html" class="btn btn-primary desktop-nav">Request Quote</a>
+      <button id="menuBtn" class="mobile-menu p-2 rounded-lg border border-[hsl(var(--border))]">
+        <i data-lucide="menu" class="w-5 h-5"></i>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden mobile-menu border-t border-[hsl(var(--border))] bg-[hsl(var(--background))]">
+    <div class="container py-2">
+      <a href="index.html" class="block py-3 border-b border-[hsl(var(--border))] font-medium">Home</a>
+<a href="about.html" class="block py-3 border-b border-[hsl(var(--border))] font-medium">About</a>
+<a href="services.html" class="block py-3 border-b border-[hsl(var(--border))] font-medium">Services</a>
+<a href="projects.html" class="block py-3 border-b border-[hsl(var(--border))] font-medium">Projects</a>
+<a href="gallery.html" class="block py-3 border-b border-[hsl(var(--border))] font-medium">Gallery</a>
+<a href="contact.html" class="block py-3 border-b border-[hsl(var(--border))] font-medium">Contact</a>
+
+      <a href="contact.html" class="btn btn-primary w-full mt-4 mb-3">Request Quote</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <span class="badge mb-3">Gallery</span>
+      <h1 class="text-3xl md:text-4xl font-extrabold mb-4">Our glass &amp; mirror installation gallery</h1>
+      <p class="muted text-lg">Browse real photos from completed jobs across Jeddah.</p>
+    </div>
+    <div class="flex flex-wrap gap-2 justify-center mb-10"><button data-filter="all" class="filter-btn btn btn-primary !py-2 !px-4 text-sm">All</button><button data-filter="DOORS" class="filter-btn btn btn-outline-dark !py-2 !px-4 text-sm">Glass Doors</button><button data-filter="MIRRORS" class="filter-btn btn btn-outline-dark !py-2 !px-4 text-sm">Mirrors</button><button data-filter="OTHER" class="filter-btn btn btn-outline-dark !py-2 !px-4 text-sm">Other Work</button><button data-filter="PARTITIONS" class="filter-btn btn btn-outline-dark !py-2 !px-4 text-sm">Glass Partitions</button><button data-filter="SHOPFRONT" class="filter-btn btn btn-outline-dark !py-2 !px-4 text-sm">Shopfront & Facades</button><button data-filter="SHOWER" class="filter-btn btn btn-outline-dark !py-2 !px-4 text-sm">Shower Glass</button><button data-filter="STAIRCASE" class="filter-btn btn btn-outline-dark !py-2 !px-4 text-sm">Staircase & Balcony</button><button data-filter="WINDOWS" class="filter-btn btn btn-outline-dark !py-2 !px-4 text-sm">Windows & Aluminium</button></div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOPFRONT">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/e8f96b86-8283-4e79-8af4-0218c0d3affa/wa3_3.38.20_PM.jpg" alt="Curved tinted glass facade with grand staircase" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Curved tinted glass facade with grand staircase</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="STAIRCASE">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/abd92b9d-d4f0-4740-8dcc-c20124e2ba64/wa3_4.50.57_PM_2.jpg" alt="Stainless steel and glass stair railing" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Stainless steel and glass stair railing</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="MIRRORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/7206c60e-3fbf-4a77-9889-afda67282bad/wa3_4.50.57_PM_1.jpg" alt="Large wall-mounted gym mirror installation" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Large wall-mounted gym mirror installation</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="PARTITIONS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/59f63cd5-a030-4009-982c-93d0b167e4c1/wa3_4.50.57_PM.jpg" alt="Frameless glass sliding partition system" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frameless glass sliding partition system</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOWER">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/f369e544-0f78-4c64-9bd1-a30feeda0030/wa3_4.50.56_PM_2.jpg" alt="Frosted sliding shower door installation" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frosted sliding shower door installation</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOWER">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/bd555090-3e6b-4993-bce5-14bc301d0bf0/wa3_4.50.56_PM_1.jpg" alt="Frosted glass shower enclosure with chrome hinges" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frosted glass shower enclosure with chrome hinges</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOPFRONT">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/a5f7dfdf-b894-4e96-aaa9-80cad52e8ce3/wa3_4.50.56_PM.jpg" alt="Spider-fitting tempered glass shop facade" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Spider-fitting tempered glass shop facade</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="DOORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/df9828ea-0edc-4d3a-a568-743df80f5944/wa3_4.50.55_PM_1.jpg" alt="Modern glass door with vertical black accents" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Modern glass door with vertical black accents</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOPFRONT">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/64294f00-0217-4085-be5f-11321331d140/wa3_4.50.55_PM.jpg" alt="Frameless glass storefront with double entry doors" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frameless glass storefront with double entry doors</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="PARTITIONS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/eb528525-b8d0-4bd9-95cf-1b8ffec5ef3b/wa3_4.50.54_PM.jpg" alt="Curved frameless glass office partition with doors" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Curved frameless glass office partition with doors</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="PARTITIONS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/d92ccbb2-04e9-4c0c-a20f-e4b7290891f6/wa2_4.51.12_PM.jpg" alt="Frameless glass office partition with city view" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frameless glass office partition with city view</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="STAIRCASE">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/91771cba-4aea-40c8-850c-9ad006496e15/wa2_4.51.11_PM_2.jpg" alt="Frameless glass stair balustrade with LED lighting" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frameless glass stair balustrade with LED lighting</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="STAIRCASE">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/33dde883-5e9b-41d9-bce6-30510782de62/wa2_4.51.11_PM_1.jpg" alt="Black-edged glass staircase railing" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Black-edged glass staircase railing</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="OTHER">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/eab484a3-7523-42fb-8bb1-7725c3009285/wa2_4.51.14_PM_1.jpg" alt="Frosted glass panel installation" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frosted glass panel installation</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="PARTITIONS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/c0abe30a-d9ff-4dd7-9538-936d80161757/wa2_4.51.14_PM_3.jpg" alt="Corporate glass corridor partition" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Corporate glass corridor partition</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="PARTITIONS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/8d486ddf-9fb8-40db-893d-dd3b18ab37f5/wa2_4.51.14_PM_2.jpg" alt="Frosted glass bathroom partition with steel hinges" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frosted glass bathroom partition with steel hinges</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="STAIRCASE">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/f9fb0df8-8292-45d5-9517-c528a78d2af6/wa2_4.51.13_PM.jpg" alt="Tempered glass staircase guard" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Tempered glass staircase guard</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOWER">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/b9049ea7-eb75-47e4-aec0-d64d407051fb/wa_3.37.57_PM.jpg" alt="Gold-trim frosted sliding shower door" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Gold-trim frosted sliding shower door</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="PARTITIONS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/f0a06423-0888-4e13-9dbe-922ede53db55/wa_3.37.55_PM.jpg" alt="Commercial kitchen glass enclosure" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Commercial kitchen glass enclosure</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="STAIRCASE">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/352fe41e-d048-4f92-a851-02a9ca9e059c/wa_3.37.56_PM.jpg" alt="Modern glass staircase railing with LED steps" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Modern glass staircase railing with LED steps</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="STAIRCASE">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/68844048-683e-4264-8455-668c4ea25c90/wa_3.38.11_PM.jpg" alt="Frameless glass staircase railing" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frameless glass staircase railing</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOWER">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/a01cd1a9-40fc-4441-bffb-55de0a386aa4/wa_3.37.56_PM_1.jpg" alt="Black-framed walk-in shower screen" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Black-framed walk-in shower screen</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="DOORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/2c3466e5-1d0a-413e-99ca-2eca89a1e81e/wa_3.38.17_PM.jpg" alt="Decorative frosted glass mosque doors" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Decorative frosted glass mosque doors</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOPFRONT">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/79be9f36-a5ef-42c8-afbe-b30f94ab5aae/wa_3.38.04_PM.jpg" alt="Commercial storefront glass facade" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Commercial storefront glass facade</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="MIRRORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/34a379ae-1145-4bf5-b7bc-689fe33c8963/wa_3.38.01_PM.jpg" alt="Arched backlit LED vanity mirrors" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Arched backlit LED vanity mirrors</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOWER">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/e8f96b86-8283-4e79-8af4-0218c0d3affa/wa3_3.38.20_PM.jpg" alt="Frameless walk-in shower glass panel" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frameless walk-in shower glass panel</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOWER">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/abd92b9d-d4f0-4740-8dcc-c20124e2ba64/wa3_4.50.57_PM_2.jpg" alt="Sliding glass shower enclosure" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Sliding glass shower enclosure</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="STAIRCASE">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/7206c60e-3fbf-4a77-9889-afda67282bad/wa3_4.50.57_PM_1.jpg" alt="Curved glass balcony railing" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Curved glass balcony railing</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="MIRRORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/59f63cd5-a030-4009-982c-93d0b167e4c1/wa3_4.50.57_PM.jpg" alt="Capsule LED backlit mirror installation" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Capsule LED backlit mirror installation</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="MIRRORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/f369e544-0f78-4c64-9bd1-a30feeda0030/wa3_4.50.56_PM_2.jpg" alt="Twin LED bathroom mirrors on mosaic wall" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Twin LED bathroom mirrors on mosaic wall</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="MIRRORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/755054b2-2793-487a-9740-b2e0c109ddb5/IMG20260208172015.jpg" alt="Living room mirror feature wall" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Living room mirror feature wall</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="PARTITIONS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/2e07aa78-fba6-4650-be01-eb1417da7c1a/IMG20260214183503.jpg" alt="Frameless glass office cabin" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frameless glass office cabin</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="WINDOWS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/1948541c-1ae3-4356-a115-66f95d937d88/IMG20260219010743.jpg" alt="Aluminium sliding window" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Aluminium sliding window</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="DOORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/b82b8975-a3dc-4903-b131-8be655a54e79/IMG20260302112553.jpg" alt="Frosted glass entrance doors" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frosted glass entrance doors</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="MIRRORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/eeb70ec5-b08d-426f-9974-18a6f41d1db6/IMG20260401165205.jpg" alt="Kitchen mirror panel wall" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Kitchen mirror panel wall</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="PARTITIONS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/f382b1bc-a900-4d80-9637-76f7937b0923/IMG20260401165246.jpg" alt="Office glass partition with door" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Office glass partition with door</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="MIRRORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/9e03773b-0788-49bd-b814-8a0bee04c550/IMG20260402155645.jpg" alt="Full-height mirror wall installation" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Full-height mirror wall installation</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="SHOWER">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/ea54f142-ed2c-4e9a-a478-61844a31a305/IMG20260405185209.jpg" alt="Frosted glass shower screen" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Frosted glass shower screen</div>
+    </div>
+  </div>
+  <div class="gallery-item rounded-xl overflow-hidden group relative aspect-square" data-category="MIRRORS">
+    <img src="https://alfurqanglass-work.lovable.app/__l5e/assets-v1/25633329-ef1d-4b6a-b880-d1167cea4057/IMG20260422095144.jpg" alt="Oval gold-framed mirror installation" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+    <div class="absolute bottom-0 left-0 right-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div class="text-white text-xs font-medium leading-snug">Oval gold-framed mirror installation</div>
+    </div>
+  </div></div>
+  </div>
+</section>
+
+<a href="https://wa.me/966542562535" target="_blank" rel="noopener"
+   class="fixed bottom-6 right-6 z-50 btn btn-whatsapp shadow-lg shadow-black/20">
+  <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp
+</a>
+
+<footer class="bg-[hsl(var(--primary))] text-white/80 mt-0">
+  <div class="container py-16 grid gap-10 md:grid-cols-4">
+    <div class="md:col-span-2">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-9 h-9 rounded-lg glass-ph flex items-center justify-center">
+          <i data-lucide="gem" class="w-4 h-4 text-white"></i>
+        </div>
+        <span class="font-bold text-white text-lg">AL Furqan Glass</span>
+      </div>
+      <p class="text-sm max-w-sm leading-relaxed">Professional glass, mirror, aluminium, and steel frame installation for homes, villas, offices, shops, restaurants, and commercial projects across Jeddah.</p>
+    </div>
+    <div>
+      <div class="text-white font-semibold mb-4 text-sm tracking-wide uppercase">Quick Links</div>
+      <div class="flex flex-col gap-2 text-sm">
+        <a href="about.html" class="hover:text-white">About Us</a>
+        <a href="services.html" class="hover:text-white">Services</a>
+        <a href="projects.html" class="hover:text-white">Projects</a>
+        <a href="gallery.html" class="hover:text-white">Gallery</a>
+        <a href="contact.html" class="hover:text-white">Contact</a>
+      </div>
+    </div>
+    <div>
+      <div class="text-white font-semibold mb-4 text-sm tracking-wide uppercase">Contact</div>
+      <div class="flex flex-col gap-3 text-sm">
+        <a href="tel:+966542562535" class="flex items-center gap-2 hover:text-white"><i data-lucide="phone" class="w-4 h-4"></i>+966 54 256 2535</a>
+        <a href="https://wa.me/966542562535" class="flex items-center gap-2 hover:text-white"><i data-lucide="message-circle" class="w-4 h-4"></i>WhatsApp Us</a>
+        <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i>Jeddah, Saudi Arabia</div>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-white/10">
+    <div class="container py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/60">
+      <div>&copy; 2026 AL Furqan Glass. All rights reserved.</div>
+      <div>Jeddah &middot; Saudi Arabia</div>
+    </div>
+  </div>
+</footer>
+<script src="main.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>
